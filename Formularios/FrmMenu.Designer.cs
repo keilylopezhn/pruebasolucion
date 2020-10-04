@@ -170,7 +170,7 @@
             // BtnGalonesaLitros
             // 
             this.BtnGalonesaLitros.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGalonesaLitros.Location = new System.Drawing.Point(147, 181);
+            this.BtnGalonesaLitros.Location = new System.Drawing.Point(12, 181);
             this.BtnGalonesaLitros.Name = "BtnGalonesaLitros";
             this.BtnGalonesaLitros.Size = new System.Drawing.Size(155, 33);
             this.BtnGalonesaLitros.TabIndex = 11;
@@ -199,6 +199,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "FrmMenu";
             this.Text = "MENU PRINCIPAL.";
+            this.Load += new System.EventHandler(this.FrmMenu_Load);
             this.ResumeLayout(false);
 
         }

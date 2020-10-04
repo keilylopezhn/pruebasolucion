@@ -86,5 +86,15 @@ namespace Tarea1_KeyliLisbethLopezMenjivar.Formularios
             Formularios.FrmConversorGalonesaLitros Galitro = new Formularios.FrmConversorGalonesaLitros();
             Galitro.ShowDialog();
         }
+
+        private void FrmMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
